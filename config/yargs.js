@@ -15,7 +15,7 @@ const yargs = require('yargs')
     alias: 'list',
     type: 'boolean',
     default: false,
-    describe: 'asd',
+    describe: 'Shows or not the result in the console (false by default)',
   })
 
   .check((argv, options) => {
